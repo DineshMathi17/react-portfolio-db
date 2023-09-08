@@ -3,6 +3,7 @@ import "./Portfolio.css";
 import * as SiIcons from "react-icons/si";
 import stack from "../../Images/stack.png";
 import url from "../../Images/url.png";
+import thiru from "../../Images/thirukkural.png";
 import pokimon from "../../Images/pokimon.png";
 import { FaGithub,  } from 'react-icons/fa'
 import { CgWebsite  } from 'react-icons/cg'
@@ -92,6 +93,41 @@ function Portfolio() {
                     target="_blank"
                     rel="noreferrer"
                     href="https://url-shortener-17.netlify.app/"
+                  >
+                    Website <CgWebsite />
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card" data-aos="zoom-in-up">
+          <img src={thiru} className="card-img-top" alt="..." />
+          <div className="card-img-overlay">
+            <div className="img-title">THIRUKKURAL API</div>
+            <div className="img-description">
+              <p>
+              The Thirukkural API provides data about each of the 1330 thirukkural, in tamil and english.
+              </p>
+              <div className="tech_used">
+                <i className="fab fa-react react"></i> &nbsp;
+                <i className="fab fa-node node"></i> &nbsp;
+                <SiIcons.SiHtml5 className="react" /> &nbsp;
+                <SiIcons.SiJavascript className="node" /> &nbsp;
+                <p className="codeLinks text-center pt-3">
+                  <a
+                    className="btn btn-success"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/DineshMathi17/thirukkural-api"
+                  >
+                    Frontend <FaGithub />
+                  </a>
+                  <a
+                    className="btn btn-success"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://thirukkural-api-17.netlify.app/"
                   >
                     Website <CgWebsite />
                   </a>
