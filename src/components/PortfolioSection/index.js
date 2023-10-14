@@ -2,11 +2,11 @@ import React from "react";
 import "./Portfolio.css";
 import * as SiIcons from "react-icons/si";
 import stack from "../../Images/stack.png";
-import url from "../../Images/url.png";
-import thiru from "../../Images/thirukkural.png";
-import pokimon from "../../Images/pokimon.png";
-import { FaGithub,  } from 'react-icons/fa'
-import { CgWebsite  } from 'react-icons/cg'
+import zenclass from "../../Images/zenclass.png";
+import chat from "../../Images/chat.png";
+import shop from "../../Images/shop.png";
+import { FaGithub, } from 'react-icons/fa'
+import { CgWebsite } from 'react-icons/cg'
 
 function Portfolio() {
   return (
@@ -58,25 +58,31 @@ function Portfolio() {
           </div>
         </div>
 
+
+
+
+
+        {/*  */}
         <div className="card" data-aos="zoom-in-up">
-          <img src={url} className="card-img-top" alt="..." />
+          <img src={zenclass} className="card-img-top" alt="..." />
           <div className="card-img-overlay">
-            <div className="img-title">Url Shortener</div>
+            <div className="img-title">Zen class</div>
             <div className="img-description">
               <p>
-                This project is to minimize the web page address into something that's easier to remember and track
+                This project is to giving a project for student by login as admin and give a instruction to student.
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
                 <i className="fab fa-node node"></i> &nbsp;
                 <SiIcons.SiReact className="react" /> &nbsp;
                 <SiIcons.SiNodedotjs className="node" /> &nbsp;
-                <SiIcons.SiMongodb className="mongodb" /> &nbsp;                <p className="codeLinks text-center pt-3">
+                <SiIcons.SiMongodb className="mongodb" /> &nbsp;
+                <p className="codeLinks text-center pt-3">
                   <a
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/DineshMathi17/task-day-44-url-shortener-Front"
+                    href="https://github.com/DineshMathi17/zen-class-front"
                   >
                     Frontend <FaGithub />
                   </a>
@@ -84,7 +90,7 @@ function Portfolio() {
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/DineshMathi17/task-day-44-url-shortener-back"
+                    href="https://github.com/DineshMathi17/zen-class-back"
                   >
                     Backend <FaGithub />
                   </a>
@@ -92,7 +98,7 @@ function Portfolio() {
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://url-shortener-17.netlify.app/"
+                    href="https://zenclass-event-management.netlify.app/"
                   >
                     Website <CgWebsite />
                   </a>
@@ -101,25 +107,31 @@ function Portfolio() {
             </div>
           </div>
         </div>
+
+
+
+
+        {/*  */}
         <div className="card" data-aos="zoom-in-up">
-          <img src={thiru} className="card-img-top" alt="..." />
+          <img src={shop} className="card-img-top" alt="..." />
           <div className="card-img-overlay">
-            <div className="img-title">THIRUKKURAL API</div>
+            <div className="img-title">Online Book Shop</div>
             <div className="img-description">
               <p>
-              The Thirukkural API provides data about each of the 1330 thirukkural, in tamil and english.
+                This project is to buy a book in online and online Payment using Stripe 
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
                 <i className="fab fa-node node"></i> &nbsp;
-                <SiIcons.SiHtml5 className="react" /> &nbsp;
-                <SiIcons.SiJavascript className="node" /> &nbsp;
+                <SiIcons.SiReact className="react" /> &nbsp;
+                <SiIcons.SiNodedotjs className="node" /> &nbsp;
+                <SiIcons.SiMongodb className="mongodb" /> &nbsp;
                 <p className="codeLinks text-center pt-3">
                   <a
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/DineshMathi17/thirukkural-api"
+                    href="https://github.com/DineshMathi17/bookshop-app-frontend"
                   >
                     Frontend <FaGithub />
                   </a>
@@ -127,7 +139,15 @@ function Portfolio() {
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://thirukkural-api-17.netlify.app/"
+                    href="https://github.com/DineshMathi17/bookshop-app-backend"
+                  >
+                    Backend <FaGithub />
+                  </a>
+                  <a
+                    className="btn btn-success"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://online-book-shop-17.netlify.app"
                   >
                     Website <CgWebsite />
                   </a>
@@ -137,35 +157,50 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="card" data-aos="zoom-in-up">
-          <img src={pokimon} className="card-img-top" alt="..." />
 
+
+
+        {/*  */}
+
+
+
+
+  <div className="card" data-aos="zoom-in-up">
+          <img src={chat} className="card-img-top" alt="..." />
           <div className="card-img-overlay">
-            <div className="img-title">Pokemon API</div>
+            <div className="img-title">Group Chat</div>
             <div className="img-description">
               <p>
-                The Pokedex API provides data about each of the 151 Pokemon, including moves,and type
+                This project is to group chat with your friends
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
                 <i className="fab fa-node node"></i> &nbsp;
-                <SiIcons.SiHtml5 className="react" /> &nbsp;
-                <SiIcons.SiJavascript className="node" /> &nbsp;
+                <SiIcons.SiReact className="react" /> &nbsp;
+                <SiIcons.SiNodedotjs className="node" /> &nbsp;
+                <SiIcons.SiMongodb className="mongodb" /> &nbsp;
                 <p className="codeLinks text-center pt-3">
                   <a
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/DineshMathi17/pokimon-api"
+                    href="https://github.com/DineshMathi17/group-chat-frontend"
                   >
                     Frontend <FaGithub />
                   </a>
-
                   <a
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://pokimon-api-db.netlify.app/"
+                    href="https://github.com/DineshMathi17/group-chat-backend"
+                  >
+                    Backend <FaGithub />
+                  </a>
+                  <a
+                    className="btn btn-success"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://group-chat-db.netlify.app/"
                   >
                     Website <CgWebsite />
                   </a>
@@ -173,7 +208,13 @@ function Portfolio() {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
+
+
+
+
+
+
       </div>
     </div>
   );

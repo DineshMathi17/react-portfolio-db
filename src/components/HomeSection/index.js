@@ -23,7 +23,7 @@ function HeroSection() {
         <HomeP>
           I'm a passionate{" "}
           <span style={{ borderBottom: "3px solid green" }}>Web Developer</span>{" "}
-          from India
+        
         </HomeP>
         <span className="float-left">
           <a
