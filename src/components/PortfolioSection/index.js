@@ -109,8 +109,6 @@ function Portfolio() {
         </div>
 
 
-
-
         {/*  */}
         <div className="card" data-aos="zoom-in-up">
           <img src={shop} className="card-img-top" alt="..." />
@@ -157,12 +155,7 @@ function Portfolio() {
           </div>
         </div>
 
-
-
-
         {/*  */}
-
-
 
 
   <div className="card" data-aos="zoom-in-up">
@@ -209,9 +202,6 @@ function Portfolio() {
             </div>
           </div>
         </div> 
-
-
-
 
 
 
