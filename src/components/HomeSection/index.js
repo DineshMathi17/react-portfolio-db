@@ -12,7 +12,6 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { BiDockRight } from 'react-icons/bi'
 
 
-
 function HeroSection() {
   return (
 
@@ -36,7 +35,6 @@ function HeroSection() {
           >
             <FaGithub />
             
-
           </a>
           &emsp;
           <a
