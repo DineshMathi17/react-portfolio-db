@@ -8,8 +8,10 @@ import {
   HomeP,
 } from "./HomeElements";
 import Video from "../../Images/Video.mp4";
-import resume from "../../Images/Resume.pdf";
-import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { BiDockRight } from 'react-icons/bi'
+
+
 
 function HeroSection() {
   return (
@@ -52,11 +54,12 @@ function HeroSection() {
           <a
             className="btn btn-sm btn-success mt-3"
             target="_blank"
-            href={resume}
-            rel="noreferrer"
-            download={resume} >
-            Rusume < FaDownload />
+            href="https://dinesh-resume-17.netlify.app/"
+            rel="noreferrer">
+            Rusume < BiDockRight />
           </a>
+
+          
         </span>
       </HomeContent>
     </HomeContainer>

@@ -19,7 +19,7 @@ function Portfolio() {
             <div className="img-title">Stack overflow clone</div>
             <div className="img-description">
               <p>
-                Stack Overflow is a question and answer site for professional and enthusiast programmers.{" "}
+                Stack Overflow is a question and answer site for professional and enthusiast programmers.
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
