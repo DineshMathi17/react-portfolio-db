@@ -54,7 +54,7 @@ function HeroSection() {
           <a
             className="btn btn-sm btn-success mt-3"
             target="_blank"
-            href="https://dinesh-resume-17.netlify.app/"
+            href="https://drive.google.com/file/d/13iScuSSUq9bJ4fdUzZmxXrWdzFTqQs13/view?usp=sharing"
             rel="noreferrer">
             Rusume < BiDockRight />
           </a>
