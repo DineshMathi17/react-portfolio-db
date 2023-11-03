@@ -14,7 +14,6 @@ import { BiDockRight } from 'react-icons/bi'
 
 function HeroSection() {
   return (
-
     <HomeContainer id="home">
       <HomeBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
