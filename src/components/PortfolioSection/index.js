@@ -13,6 +13,8 @@ function Portfolio() {
     <div id="portfolio">
       <h1 className="logo-text">Projects</h1>
       <div className="allProjects">
+
+        
         <div className="card" data-aos="zoom-in-up">
           <img src={stack} className="card-img-top" alt="..." />
           <div className="card-img-overlay">
@@ -59,6 +61,52 @@ function Portfolio() {
         </div>
 
 
+        <div className="card" data-aos="zoom-in-up">
+          <img src={chat} className="card-img-top" alt="..." />
+          <div className="card-img-overlay">
+            <div className="img-title">DB-Chat</div>
+            <div className="img-description">
+              <p>
+                This project is to chat with your friends
+              </p>
+              <div className="tech_used">
+                <i className="fab fa-react react"></i> &nbsp;
+                <i className="fab fa-node node"></i> &nbsp;
+                <SiIcons.SiReact className="react" /> &nbsp;
+                <SiIcons.SiNodedotjs className="node" /> &nbsp;
+                <SiIcons.SiMongodb className="mongodb" /> &nbsp;
+                <p className="codeLinks text-center pt-3">
+                  <a
+                    className="btn btn-success"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/DineshMathi17/db-chat-frontend"
+                  >
+                    Frontend <FaGithub />
+                  </a>
+                  <a
+                    className="btn btn-success"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/DineshMathi17/db-chat-backend"
+                  >
+                    Backend <FaGithub />
+                  </a>
+                  <a
+                    className="btn btn-success"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://db-chat-app.netlify.app/"
+                  >
+                    Website <CgWebsite />
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        
 
 
 
@@ -158,50 +206,6 @@ function Portfolio() {
         {/*  */}
 
 
-  <div className="card" data-aos="zoom-in-up">
-          <img src={chat} className="card-img-top" alt="..." />
-          <div className="card-img-overlay">
-            <div className="img-title">Group Chat</div>
-            <div className="img-description">
-              <p>
-                This project is to group chat with your friends
-              </p>
-              <div className="tech_used">
-                <i className="fab fa-react react"></i> &nbsp;
-                <i className="fab fa-node node"></i> &nbsp;
-                <SiIcons.SiReact className="react" /> &nbsp;
-                <SiIcons.SiNodedotjs className="node" /> &nbsp;
-                <SiIcons.SiMongodb className="mongodb" /> &nbsp;
-                <p className="codeLinks text-center pt-3">
-                  <a
-                    className="btn btn-success"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/DineshMathi17/group-chat-frontend"
-                  >
-                    Frontend <FaGithub />
-                  </a>
-                  <a
-                    className="btn btn-success"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/DineshMathi17/group-chat-backend"
-                  >
-                    Backend <FaGithub />
-                  </a>
-                  <a
-                    className="btn btn-success"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://group-chat-db.netlify.app/"
-                  >
-                    Website <CgWebsite />
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> 
 
 
 
