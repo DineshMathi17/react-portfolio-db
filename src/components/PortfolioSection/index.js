@@ -130,7 +130,7 @@ function Portfolio() {
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/DineshMathi17/zen-class-front"
+                    href="https://github.com/DineshMathi17/zenclass2-front"
                   >
                     Frontend <FaGithub />
                   </a>
@@ -146,7 +146,7 @@ function Portfolio() {
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://zenclass-event-management.netlify.app/"
+                    href="https://zenclass-db.netlify.app/"
                   >
                     Website <CgWebsite />
                   </a>
