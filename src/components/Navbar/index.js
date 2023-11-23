@@ -53,7 +53,7 @@ function Navbar({ toggle }) {
                 offset={-70}
                 duration={500}
               >
-                skills
+                Skills
               </NavLinks>
             </NavItem>
             <NavItem>
@@ -75,7 +75,7 @@ function Navbar({ toggle }) {
                 offset={-70}
                 duration={500}
               >
-                contact
+                Contact
               </NavLinks>
             </NavItem>
           </NavMenu>
