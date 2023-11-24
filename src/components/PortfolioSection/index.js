@@ -114,7 +114,7 @@ function Portfolio() {
             <div className="img-title">Zen class</div>
             <div className="img-description">
               <p>
-                This project is to giving a project for student and give a instruction to student by a admin 
+                This project is to giving a project for student and give a instruction to student by a admin. It is used for monitoring student by mentor 
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;

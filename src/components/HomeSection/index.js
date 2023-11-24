@@ -21,7 +21,7 @@ function HeroSection() {
       <HomeContent>
         <HomeH1>Dinesh Babu M</HomeH1>
         <HomeP>
-          I'm a passionate{" "}
+          I'm a Passionate{" "}
           <span style={{ borderBottom: "3px solid green" }}>Web Developer</span>{" "}
         
         </HomeP>
