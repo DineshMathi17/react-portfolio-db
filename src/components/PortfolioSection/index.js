@@ -53,7 +53,7 @@ function Portfolio() {
                     rel="noreferrer"
                     href="https://stack-overflow-17.netlify.app/"
                   >
-                    Website <CgWebsite />
+                    Live <CgWebsite />
                   </a>
                 </p>
               </div>
@@ -98,7 +98,7 @@ function Portfolio() {
                     rel="noreferrer"
                     href="https://db-chat-app.netlify.app/"
                   >
-                    Website <CgWebsite />
+                    Live <CgWebsite />
                   </a>
                 </p>
               </div>
@@ -145,7 +145,7 @@ function Portfolio() {
                     rel="noreferrer"
                     href="https://zenclass-db.netlify.app/"
                   >
-                    Website <CgWebsite />
+                    Live <CgWebsite />
                   </a>
                 </p>
               </div>
@@ -192,7 +192,7 @@ function Portfolio() {
                     rel="noreferrer"
                     href="https://online-book-shop-17.netlify.app"
                   >
-                    Website <CgWebsite />
+                    Live <CgWebsite />
                   </a>
                 </p>
               </div>
