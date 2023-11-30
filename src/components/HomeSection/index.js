@@ -51,7 +51,7 @@ function HeroSection() {
           <a
             className="btn btn-sm btn-success mt-3"
             target="_blank"
-            href="https://drive.google.com/file/d/13iScuSSUq9bJ4fdUzZmxXrWdzFTqQs13/view?usp=sharing"
+            href="https://drive.google.com/file/d/1M_ppcjwOlQhqiWd-0OZhsbY2sZQ7RGxD/view"
             rel="noreferrer">
             Rusume < BiDockRight />
           </a>
