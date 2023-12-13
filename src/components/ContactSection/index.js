@@ -24,7 +24,7 @@ function Contact() {
           <a
             className="btn btn-sm btn-success "
             target="_blank"
-            href="https://dinesh-resume-17.netlify.app/"
+            href="https://drive.google.com/file/d/1M_ppcjwOlQhqiWd-0OZhsbY2sZQ7RGxD/view"
             rel="noreferrer">
             Rusume < BiDockRight />
           </a>
