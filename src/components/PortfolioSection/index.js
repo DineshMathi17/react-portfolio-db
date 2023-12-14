@@ -96,7 +96,7 @@ function Portfolio() {
                     className="btn btn-success"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://db-chat-app.netlify.app/"
+                    href="https://db-chatapp.netlify.app/"
                   >
                     Live <CgWebsite />
                   </a>
